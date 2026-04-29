@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  /* Aquí definimos la fuente caligráfica para Tailwind v4 */
+  --font-caligrafica: "Great Vibes", cursive;
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Montserrat", sans-serif;
+  
+  /* También podemos definir tus colores de boda aquí */
+  --color-boda-oro: #E2C275;
+  --color-boda-azul: #020617;
+}
+
+/* El link de Google Fonts también lo podemos poner aquí para asegurar */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
