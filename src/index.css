@@ -6,9 +6,16 @@
   --font-serif: "Playfair Display", serif;
   --font-sans: "Montserrat", sans-serif;
   
-  /* También podemos definir tus colores de boda aquí */
-  --color-boda-oro: #E2C275;
-  --color-boda-azul: #020617;
+  /* Terracota Principal (El del círculo inferior) */
+  --color-terracota-dark: #a64d33; 
+  /* Terracota Suave (El del círculo superior) */
+  --color-terracota-light: #b07d6a;
+  /* Verde Olivo Seco (El del círculo medio) */
+  --color-olivo: #8e846b;
+  /* Crema de fondo (El tono de las flores y encaje) */
+  --color-crema: #f4f1ea;
+  /* Dorado suave para detalles */
+  --color-dorado-mate: #c5a059;
 }
 
 /* El link de Google Fonts también lo podemos poner aquí para asegurar */
