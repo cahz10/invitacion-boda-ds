@@ -23,14 +23,14 @@ function App() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-[#020617] font-sans text-[#F9F6EE] overflow-x-hidden">
+    <div className="min-h-screen bg-sand font-sans text-terra-deep overflow-x-hidden">
       
-      {/* 1. SECCIÓN HERO (PORTADA) */}
-      <section className="relative h-screen flex flex-col items-center justify-center bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-[#0f172a] via-[#020617] to-[#020617]">
+      /* 1. SECCIÓN HERO (PORTADA) */
+      <section className="relative h-screen flex flex-col items-center justify-center bg-sand">
         
-        {/* Adornos Dorados en Esquinas */}
-        <div className="absolute top-0 left-0 w-32 h-32 border-l-2 border-t-2 border-[#E2C275] m-6 md:m-12 opacity-60"></div>
-        <div className="absolute bottom-0 right-0 w-32 h-32 border-r-2 border-b-2 border-[#E2C275] m-6 md:m-12 opacity-60"></div>
+        /* Adornos en Esquinas con Terracota Suave */
+        <div className="absolute top-0 left-0 w-32 h-32 border-l-2 border-t-2 border-terra-soft m-6 md:m-12 opacity-40"></div>
+        <div className="absolute bottom-0 right-0 w-32 h-32 border-r-2 border-b-2 border-terra-soft m-6 md:m-12 opacity-40"></div>
 
         <motion.div 
           initial={{ opacity: 0, y: 30 }}
@@ -119,7 +119,7 @@ function App() {
         <motion.div 
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
-          className="bg-terra-deep text-sand font-bold py-3 px-8 rounded-full shadow-lg hover:bg-olive transition-all duration-300 transform hover:scale-105"
+          className="max-w-xl mx-auto border border-[#E2C275]/40 p-10 md:p-16 text-center bg-[#020617] shadow-2xl relative"
         >
           <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-[#020617] px-6 py-1 border border-[#E2C275]/40 text-[#E2C275] font-serif tracking-widest italic">
             RSVP
@@ -143,7 +143,7 @@ function App() {
 
       {/* FOOTER */}
       <footer className="py-12 bg-[#020617] text-center border-t border-[#E2C275]/10">
-        <p className="text-terra-soft font-serif text-2xl border-t border-terra-soft/30 pt-8 mt-12">Diana Carolina y Sebastián</p>
+        <p className="font-serif italic text-[#E2C275]/60 text-lg">Diana Carolina y Sebastián</p>
         <p className="text-[10px] uppercase tracking-[0.4em] text-[#F9F6EE]/30 mt-4">Hecho con amor • 2026</p>
       </footer>
 

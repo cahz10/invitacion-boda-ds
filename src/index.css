@@ -1,4 +1,6 @@
 @import "tailwindcss";
+/* Link de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 @theme {
   /* Aquí definimos la fuente caligráfica para Tailwind v4 */
@@ -6,17 +8,11 @@
   --font-serif: "Playfair Display", serif;
   --font-sans: "Montserrat", sans-serif;
   
-  /* Terracota Principal (El del círculo inferior) */
-  --color-terracota-dark: #a64d33; 
-  /* Terracota Suave (El del círculo superior) */
-  --color-terracota-light: #b07d6a;
-  /* Verde Olivo Seco (El del círculo medio) */
-  --color-olivo: #8e846b;
-  /* Crema de fondo (El tono de las flores y encaje) */
-  --color-crema: #f4f1ea;
-  /* Dorado suave para detalles */
-  --color-dorado-mate: #c5a059;
+  /* Paleta Terracota extraída de tu imagen */
+  --color-terra-deep: #8b3d2b;   /* Terracota intenso (Círculo inferior) */
+  --color-terra-soft: #b07d6a;   /* Terracota suave (Círculo superior) */
+  --color-olive: #7d7658;        /* Verde olivo seco (Círculo medio) */
+  --color-sand: #f4f1ea;         /* Crema de fondo (Tono de encaje/flores) */
+  --color-gold-dust: #c5a059;    /* Dorado mate para detalles finos */
 }
 
-/* El link de Google Fonts también lo podemos poner aquí para asegurar */
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
