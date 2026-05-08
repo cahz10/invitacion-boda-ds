@@ -119,7 +119,7 @@ function App() {
         <motion.div 
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
-          className="max-w-xl mx-auto border border-[#E2C275]/40 p-10 md:p-16 text-center bg-[#020617] shadow-2xl relative"
+          className="bg-terra-deep text-sand font-bold py-3 px-8 rounded-full shadow-lg hover:bg-olive transition-all duration-300 transform hover:scale-105"
         >
           <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-[#020617] px-6 py-1 border border-[#E2C275]/40 text-[#E2C275] font-serif tracking-widest italic">
             RSVP
@@ -143,7 +143,7 @@ function App() {
 
       {/* FOOTER */}
       <footer className="py-12 bg-[#020617] text-center border-t border-[#E2C275]/10">
-        <p className="font-serif italic text-[#E2C275]/60 text-lg">Diana Carolina y Sebastián</p>
+        <p className="text-terra-soft font-serif text-2xl border-t border-terra-soft/30 pt-8 mt-12">Diana Carolina y Sebastián</p>
         <p className="text-[10px] uppercase tracking-[0.4em] text-[#F9F6EE]/30 mt-4">Hecho con amor • 2026</p>
       </footer>
 
